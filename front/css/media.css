@@ -1,0 +1,319 @@
+/* Extra large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (max-width: 1440px) {
+  .free_img {
+    height: 302px;
+    width: 240px;
+  }
+  .package_box > h1 {
+    top: 30px;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+  .heading1 > h1 {
+    font-size: 50px;
+  }
+  .bn_imgRE > h1 {
+    left: 25%;
+  }
+  .f_slider .owl-theme .owl-nav {
+    margin-top: 16%;
+  }
+  .ingerat_heading > h1,
+  .special_box > .head > h1,
+  .free_info > h1,
+  .package_box > h1 {
+    font-size: 60px;
+    padding-bottom: 0px;
+  }
+  .ingerat_heading {
+    padding: 0px;
+  }
+  .ingeredients {
+    height: 450px;
+  }
+  .daily_img {
+    height: 250px;
+  }
+  .big_bn {
+    height: 650px;
+    width: 330px;
+    left: 100px;
+    top: -100px;
+  }
+  .brown_box {
+    height: 400px;
+  }
+  .brionch_box {
+    height: auto;
+  }
+  .free_img {
+    top: -22.3px;
+  }
+  .special_box {
+    height: 525px;
+  }
+  .speci_img {
+    height: 200px;
+  }
+}
+/* Medium devices (landscape medium, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .big_bn{
+        display: none;
+    }
+    .speci_img {
+        height: 250px;
+        width: 70%;
+    }
+  .side_bar {
+    display: block;
+  }
+  .nav {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    padding: 20px;
+    background-color: #a47261;
+    left: 0px;
+    border-radius: 10px;
+    display: none;
+  }
+  .nav > ul {
+    flex-direction: column;
+  }
+  .nav > ul > li.nav_line {
+    display: none;
+  }
+  .startBtn {
+    padding: 10px;
+    font-size: 12px;
+  }
+  .navbr {
+    padding: 10px;
+  }
+  .bn_imgRE > h1 {
+    bottom: 21%;
+
+    font-size: 30px;
+  }
+  .taste_content > .bake_img1 {
+    height: 150px;
+  }
+  .bake_img2 {
+    height: 150px;
+  }
+  .f_slider .owl-theme .owl-nav {
+    display: none;
+  }
+  .main_container {
+    height: 100vh;
+  }
+  .taste {
+    display: none;
+  }
+  .title > h1 {
+    font-size: 24px;
+  }
+  .daily_report {
+    margin-top: 30px;
+  }
+  .bread_heading {
+    position: relative;
+    z-index: 12;
+    padding-left: 10%;
+  }
+  .buy_lable {
+    height: 140px;
+    width: 200px;
+    min-width: 200px;
+    font-size: 24px;
+  }
+  .brown_box {
+    height: 350px;
+  }
+  .free_img {
+    top: 0px;
+  }
+  .free_box {
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  .bott_rightimg > img {
+    bottom: 80px;
+}
+.value_box {
+    bottom: 121px;
+}
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .main_container {
+    height: auto;
+  }
+  .taste_content > .bake_img1 {
+    width: 50%;
+  }
+  .bake_img2 {
+    width: 60%;
+  }
+  .taste_content {
+    align-items: center;
+  }
+  .boking_cont {
+    padding-top: 20px;
+    gap: 3px;
+  }
+  .title {
+    margin-top: 10px;
+    padding: 10px;
+  }
+  .bookbrn > button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  .row_rever {
+    flex-direction: column-reverse;
+  }
+  .ingerat_heading > h1 > br,
+  .heading1 > h1 > br,
+  .taste_content > p > br,
+  .serve_title > h1 > br,
+  .bread_heading > h1>br{
+    display: none;
+  }
+  .ingerat_heading {
+    margin: 20px 0px;
+  }
+  .daily_report > h4 {
+    margin-top: 20px;
+  }
+  .ingerat_heading > h1,
+  .special_box > .head > h1,
+  .free_info > h1,
+  .package_box > h1,
+  .goodness_head > h1,
+  .serve_title > h1,
+  .bread_heading > h1 {
+    font-size: 45px;
+  }
+  .mini_group {
+    justify-content: space-between;
+    width: 100%;
+  }
+  .brown_box {
+    border-radius: 20px;
+  }
+  .serve_groupIMG {
+    padding-top: 0px;
+  }
+  .heading1 {
+    padding: 5% 0px;
+  }
+  .bn_imgRE > h1 {
+    bottom: 0%;
+    font-size: 54px;
+    text-align: center;
+    left: unset;
+  }
+  .bn_slider {
+    padding-bottom: 5%;
+  }
+  .pady-60 {
+    padding: 20px 0px;
+  }
+  .taste_content > .bake_img1 , .bake_img2{
+    background-size: cover;
+    background-position: bottom;
+  }
+  .bott_rightimg > img {
+    bottom: 18px;
+}
+.value_box {
+    bottom: 60px;
+}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .cocki_slid {
+    top: 20px;
+  }
+  .taste_content > .bake_img1,
+  .bake_img2 {
+    width: 100%;
+    height: 220px;
+  }
+  .people {
+    flex-direction: row;
+    align-items: center;
+  }
+  .people > img:nth-child(2) {
+    margin-top: 0px;
+  }
+  .people > img:nth-child(3) {
+    margin-top: 0px;
+  }
+  .boking_cont {
+    justify-content: space-around;
+  }
+  .bookbrn > button > br {
+    display: none;
+  }
+  .bookbrn > button {
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+  }
+  .boking_bn {
+    padding: 0px;
+  }
+  .big_bn{
+    display: none;
+  }
+  .bread_heading {
+    padding-left: 5%;
+  }
+  .brown_box{
+    flex-direction: column;
+justify-content: space-evenly;
+  }
+  .buy_lable>br{
+    display: none;
+  }
+  .buy_lable {
+    height: auto;
+    width: 90%;
+    min-width: 90%;
+    font-size: 19px;
+    padding: 10px 0px;
+    border-radius: 200px;
+}
+.brionch_box {
+    height: auto;
+}
+footer {
+    padding: 30px 0px;
+}
+.foot_nav > ul{
+    gap: 10px;
+    margin-top: 10px;
+}
+.foot_box{
+    justify-content: center;
+}
+.last_foot {
+    padding: 10px;
+}
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 420px) {
+    .free_img {
+        width: 188px;
+    }
+    .bn_imgRE > h1{
+        bottom: 14%;
+    }
+}
+/* Extra small devices (phones, 300px and down) */
+@media only screen and (max-width: 400px) {
+}
